@@ -53,7 +53,7 @@ char *split_str(char *s, int begin, int end)
  * Using Karp-Rabin method, print out all matched index(es) of substring
  * in a string
  */
-int isSubStr(char *str, char *sub)
+int is_substr(char *str, char *sub)
 {
     int n, m;
     int i, j;
@@ -105,7 +105,7 @@ int main()
     char *str = "abracadabra";
 
 
-    isSubStr(str, sub);
+    is_substr(str, sub);
 
     return 0;
 }
